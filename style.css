@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*ie,firefox,chrome,...*/
+*{
+padding:0px;
+margin:0px;
+}
+
+body{
+width:800px;
+margin:auto;
+}
+
+#top{
+height:100px;
+background:#00CC66;
+text-align:center;
+line-height:100px;
+}
+
+#menu{
+height:30px;
+background:#9966FF;
+}
+
+#menu ul li{
+list-style-type:none;
+float:left;
+width:160px;
+text-align:center;
+line-height:30px;
+}
+
+#menu ul li:hover{
+  background: #0099FF;
+}
+
+#menu ul li a{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#left{
+float:left;
+width:618px;
+border-right:1px solid #CCCCCC;
+}
+
+.news{
+border-bottom:1px solid #CCCCCC;
+margin:5px 10px 5px 10px;
+padding-bottom:5px;
+}
+
+.category{
+border-bottom:1px solid #CCC;
+margin-bottom: 5px;
+}
+
+.news .category a{
+color:#900;
+}
+
+.article{
+width: 380px;
+text-align: justify;
+float: left;
+}
+
+.list-article{
+width: 180px;
+border-left: 1px solid #CCCCCC;
+float: left;
+padding-left: 20px;
+margin-left: 10px;
+}
+
+.list-article a{
+text-decoration: none;
+color: #333;
+}
+
+.news h3{
+margin-bottom:5px;
+}
+
+.news a{
+color: #000;
+text-decoration: none;
+}
+
+.news a:hover{
+color: #09F;
+}
+
+.news img{
+border:1px solid #CCCCCC;
+padding:2px;
+float:left;
+margin-right:5px;
+}
+
+#right{
+float:left;
+width:178px;
+}
+
+.ads{
+border: 1px solid #CCC;
+height: 150px;
+width: 160px;
+margin: 20px 0 0 10px;
+}
+
+#bottom{
+  height: 40px;
+  background: #00CC66;
+  line-height: 40px;
+  text-align: center;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+#pagination{
+width: 220px;
+margin: 10px auto 50px;
+}
+
+#pagination ul{
+list-style-type: none;
+}
+
+#pagination li{
+float:left;
+border:1px solid #CCCCCC;
+margin-right: 5px;
+padding: 3px 9px 3px 9px;
+}
+
+#pagination a{
+text-decoration: none;
+color: #666;
+}
+
+#pagination a:hover{
+color: #09F;
+text-decoration: underline;
+}
+
+/*detail*/
+#detail-article{
+border-bottom: 1px dashed #CCCCCC;
+}
+
+#detail-article h2{
+margin: 10px 0 10px 0;
+}
+
+#detail-article p{
+margin: 10px 0 10px 0;
+}
+
+#other-articles p{
+margin: 10px 0 10px 0;
+font-weight: bold;
+}
+
+#other-articles ul{
+margin: 10px 0 20px 20px;
+}
+
+#other-articles a{
+text-decoration: none;
+color: #666;
+}
+
+#other-articles a:hover{
+color: #09F;
+text-decoration: underline;
+}
+
+#comment legend{
+margin: 25px;
+font-size: 28;
+font-weight: bold;
+}
+
+table{
+margin: 15px 0px 20px 20px;
+}
+
+table input{
+padding: 2px;
+margin-left: 5px;
+}
+
+table textarea{
+padding: 2px;
+margin-left: 5px
+}
+
+#show-comment{
+margin: 20px 0 20px 0;
+}
+
+.comm{
+margin: 10px 0 10px 0;
+}
+
+.comm img{
+float: left;
+border: 1px solid #CCCCCC;
+padding: 1px;
+}
+
+.mess{
+float: left;
+margin-left: 5px;
+}
